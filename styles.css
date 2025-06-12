@@ -144,6 +144,7 @@ h1.text-center {
 .map{
 	display: block; 
 	margin: 30px auto;
+	max-width: 80%;
 }
 
 .container {
@@ -358,6 +359,11 @@ h1.text-center {
 
 
 @media (width <= 991px){
+
+	.lh-base {
+		text-align: justify!important;
+		margin: 10px 10px;
+	}
 
 	.row{
 		flex-direction: column-reverse;
