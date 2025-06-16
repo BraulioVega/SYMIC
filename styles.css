@@ -147,7 +147,7 @@ h1.text-center {
 .map{
 	display: block; 
 	margin: 30px auto;
-	max-width: 80%;
+	max-width: 60%;
 }
 
 .container {
@@ -416,9 +416,9 @@ h1.text-center {
 	}
 }
 
-@media (width <= 650px){
+@media (width <= 640px){
 	.carousel-caption img {
-	max-height: 100px;
+	max-height: 120px;
 }
 
 .carousel-caption h5{
@@ -426,7 +426,22 @@ h1.text-center {
 }
 
 	.carousel-caption {
-	bottom: 20%;
+	bottom: 21%;
+}
+
+}
+
+@media (width <= 410px){
+	.carousel-caption img {
+	max-height: 70px;
+}
+
+.carousel-caption h5{
+	font-size: .7rem;
+}
+
+	.carousel-caption {
+	bottom: 10%;
 }
 
 }
