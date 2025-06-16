@@ -147,7 +147,7 @@ h1.text-center {
 .map{
 	display: block; 
 	margin: 30px auto;
-	max-width: 60%;
+	max-width: 70%;
 }
 
 .container {
@@ -362,6 +362,18 @@ h1.text-center {
 
 @media (width <= 991px){
 
+	.col h1 {
+		margin: 10px 0;
+	}
+
+	.col p {
+		max-width: 95%;
+	}
+
+	.col h1 {
+		margin: 0 10px;
+	}
+
 	.lh-base {
 		text-align: justify!important;
 		margin: 10px 10px;
@@ -433,7 +445,7 @@ h1.text-center {
 
 @media (width <= 410px){
 	.carousel-caption img {
-	max-height: 70px;
+	max-height: 73px;
 }
 
 .carousel-caption h5{
@@ -441,7 +453,7 @@ h1.text-center {
 }
 
 	.carousel-caption {
-	bottom: 10%;
+	bottom: 11%;
 }
 
 }
